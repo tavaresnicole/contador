@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@100;300;400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aeb8fd;
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
+}
+
+.botao-contador{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 10px;
+    width: 30px;
+    color: #fff;
+}
+
+.adiciona{
+    background-color: #62d243;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subtrai{
+    background-color: #f22121;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subtrai:hover{
+    background-color: #ea2020;
+}
+
+.adiciona:hover{
+    background-color: #5dc640; 
+}
+
+.container{
+    width: 35%;
+    height: 25%;
+    border-radius: 15px;
+    box-shadow: 5px 10px 15px rgba(154, 154, 154, 0.734);
+    background-color: #fff;
+}
